@@ -1,0 +1,97 @@
+/* styles.css */
+.home-container {
+    display: flex;
+    padding: 180px 30px 0 30px; 
+    gap: 20px;
+  }
+  
+  /* Adjust the width as needed */
+  .left-sidebar {
+    width: 82%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+  }
+
+  .right-sidebar {
+    width: 18%;
+    border: 1px solid #ccc;
+}
+
+
+/* ==============  Swiper css =================  */
+.swiper {
+    padding-bottom: 80px;
+    border-radius: 10px;
+}
+
+.swiper-pagination {
+    display: flex;
+}
+
+.swiper-pagination-bullet {
+    position: relative;
+    top: 10px;
+    border-radius: 0;
+    width:224.5px;
+    height: 80px;
+    background-color: transparent; 
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.swiper-pagination-bullet-active::before {
+    content: ""; /* Empty content for pseudo-element */
+    border-bottom: 3px solid #24a3b5; /* Set the underline color and thickness */
+}
+
+.swiper-pagination-bullet::before{
+    font-size: 14px;
+}
+
+.swiper-pagination-bullet:nth-child(1)::before {
+    content: "Refurbished vintage Phone";
+}
+.swiper-pagination-bullet:nth-child(2)::before {
+    content: "Refurbished Mobile";
+}
+.swiper-pagination-bullet:nth-child(3)::before {
+    content: "Jaw Dropping Deals";
+}
+.swiper-pagination-bullet:nth-child(4)::before {
+    content: "BHARAT KA Wholesale bazar";
+}
+.swiper-pagination-bullet:nth-child(5)::before {
+    content: "Intel";
+}
+
+
+
+/* ======= Right Sidebar css  */
+.right-sidebar {
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+.right-sidebar .side-box{
+    text-align: center;
+    padding: 5px 0; 
+    line-height: 0px;
+    border-bottom: 1px solid rgb(168, 166, 166);
+}
+
+.right-sidebar .side-box:last-child {
+    border: none;
+}
+
+
+.right-sidebar .side-box img {
+    width: 60%;
+}
+
+.right-sidebar .side-box p {
+    font-size: 12px;
+}

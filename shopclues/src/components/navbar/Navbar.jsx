@@ -8,7 +8,7 @@ import { faBell } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 // local impots 
-import "../navbar/Navbar.css"
+import "./Navbar.css"
 import logoImage from '../../assets/logo.svg'
 import madeinindia from '../../assets/madeinindia.png'
 
@@ -48,6 +48,19 @@ const Navbar = () => {
             <li><a href="#">SPORTS & MORE</a></li>
             <li><a href="#">ESSENTIALS</a></li>
             <li><a href="#">GLOBAL SHOPPING</a></li>
+        </ul>
+      </div>
+      <div className='navStrip'>
+      <ul>
+            <li><a href="#">Jaw Dropping Deals</a></li>
+            <li><a href="#">Refurbished MObile</a></li>
+            <li><a href="#">Express Shopping</a></li>
+            <li><a href="#">Men's Clothing</a></li>
+            <li><a href="#">Women's Fashion</a></li>
+            <li><a href="#">Footwear</a></li>
+            <li><a href="#">Kitchen & Dinning </a></li>
+            <li><a href="#">Audio & Headphones</a></li>
+            <li><a href="#">Bags & Luggage</a></li>
         </ul>
       </div>
     </div>
